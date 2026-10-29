@@ -22,6 +22,7 @@ const TARGETS = [
   ['Website', 'Anmeldung (Konto)', 'https://schrat.eco/login'],
   ['Website', 'Loslegen', 'https://schrat.eco/loslegen'],
   ['Website', 'Sicherheit', 'https://schrat.eco/sicherheit'],
+  ['Website', 'Schwachstellen melden', 'https://schrat.eco/sicherheit/schwachstellen'],
   ['Website', 'Betriebsstatus', 'https://schrat.eco/status'],
   ['Website', 'Barrierefreiheit', 'https://schrat.eco/barrierefreiheit'],
   ['Website', 'Datenschutz', 'https://schrat.eco/datenschutz'],
