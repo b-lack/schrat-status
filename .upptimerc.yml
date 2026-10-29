@@ -1,31 +1,90 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: b-lack
+repo: schrat-status
 
+# Every check runs from GitHub's servers, outside our own infrastructure.
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://schrat.eco
+  - name: Web-App
+    url: https://app.schrat.eco
+  - name: Anmeldung
+    # GoTrue behind Kong; without the (public) anon key Kong answers 401
+    # even when auth is down, so the check sends it from a repo secret.
+    url: https://db.schrat.eco/auth/v1/health
+    headers:
+      - "apikey: $SUPABASE_ANON_KEY"
+  - name: Datenbank-API
+    url: https://db.schrat.eco/rest/v1/
+    headers:
+      - "apikey: $SUPABASE_ANON_KEY"
+  - name: Synchronisation
+    url: https://sync.schrat.eco/probes/readiness
+  - name: E-Mail-Richtlinie
+    url: https://mta-sts.schrat.eco/.well-known/mta-sts.txt
+
+# Downtime opens a GitHub issue assigned here; GitHub e-mails the assignee.
+assignees:
+  - b-lack
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.schrat.eco
+  logoUrl: https://schrat.eco/favicon.png
+  favicon: https://schrat.eco/favicon.png
+  name: Schrat Status
+  introTitle: "**Schrat** – aktueller Betriebsstatus"
+  introMessage: "Verfügbarkeit von Website, Web-App, Anmeldung und Synchronisation, alle 5 Minuten von außen geprüft. Die Apps arbeiten offline weiter; Erfasstes wird übertragen, sobald der Dienst wieder erreichbar ist. Sicherheit und Datenschutz: [schrat.eco/sicherheit](https://schrat.eco/sicherheit)"
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Schrat
+      href: https://schrat.eco
+    - title: Sicherheit
+      href: https://schrat.eco/sicherheit
+  i18n:
+    activeIncidents: Aktuelle Störungen
+    allSystemsOperational: Alle Systeme laufen
+    incidentReport: "Störung #$NUMBER →"
+    activeIncidentSummary: Seit $DATE, $POSTS Beiträge
+    incidentTitle: Störung $NUMBER
+    incidentDetails: Details zur Störung
+    incidentFixed: Behoben
+    incidentOngoing: Andauernd
+    incidentOpenedAt: Eröffnet am
+    incidentClosedAt: Geschlossen am
+    incidentSubscribe: Updates abonnieren
+    incidentViewOnGitHub: Auf GitHub ansehen
+    incidentCommentSummary: Gepostet am $DATE von $AUTHOR
+    incidentBack: ← Zurück zu allen Störungen
+    pastIncidents: Vergangene Störungen
+    pastIncidentsResolved: Behoben in $MINUTES Minuten mit $POSTS Beiträgen
+    liveStatus: Live-Status
+    systemStatus: Systemstatus
+    overallUptime: "Verfügbarkeit gesamt: $UPTIME"
+    overallUptimeTitle: Verfügbarkeit gesamt
+    averageResponseTime: "Mittlere Antwortzeit: $TIMEms"
+    averageResponseTimeTitle: Mittlere Antwortzeit
+    sevelDayResponseTime: Antwortzeit 7 Tage
+    responseTimeMs: Antwortzeit (ms)
+    up: Erreichbar
+    down: Ausgefallen
+    degraded: Eingeschränkt
+    ms: ms
+    loading: Lädt
+    navGitHub: GitHub
+    footer: Diese Seite ist [Open Source](https://github.com/$OWNER/$REPO), betrieben mit [Upptime](https://upptime.js.org)
+    rateLimitExceededTitle: Zu viele Anfragen
+    rateLimitExceededIntro: Das Abfragelimit wurde überschritten. Bitte warten Sie $MINUTES Minuten oder melden Sie sich mit GitHub an.
+    errorTitle: Ein Fehler ist aufgetreten
+    errorIntro: Die aktuellen Statusdaten konnten nicht geladen werden.
+    errorText: Mehr Informationen finden Sie unten.
+    errorHome: Zur Startseite
+    pastScheduledMaintenance: Vergangene Wartungen
+    scheduledMaintenance: Geplante Wartung
+    scheduledMaintenanceSummaryStarted: Begann am $DATE, Dauer $DURATION Minuten
+    scheduledMaintenanceSummaryStarts: Beginnt am $DATE, Dauer $DURATION Minuten
+    startedAt: Begann am
+    startsAt: Beginnt am
+    duration: Dauer
+    durationMin: $DURATION Minuten
+    incidentCompleted: Abgeschlossen
+    incidentScheduled: Geplant
