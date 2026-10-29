@@ -14,9 +14,12 @@ sites:
     headers:
       - "apikey: $SUPABASE_ANON_KEY"
   - name: Datenbank-API
-    url: https://db.schrat.eco/rest/v1/
+    # Reads one public marketplace tag: Kong -> PostgREST -> Postgres. The
+    # API root is 403 for anon, and PostgREST's default schema is not public.
+    url: https://db.schrat.eco/rest/v1/schema_tags?select=id&limit=1
     headers:
       - "apikey: $SUPABASE_ANON_KEY"
+      - "Accept-Profile: public"
   - name: Synchronisation
     url: https://sync.schrat.eco/probes/readiness
   - name: E-Mail-Richtlinie
