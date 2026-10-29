@@ -8,6 +8,7 @@ import puppeteer from 'puppeteer-core'
 
 const require = createRequire(import.meta.url)
 const axeSource = readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8')
+const axeLocaleDe = readFileSync(require.resolve('axe-core/locales/de.json'), 'utf8')
 const axeVersion = JSON.parse(readFileSync(require.resolve('axe-core/package.json'), 'utf8')).version
 
 const TARGETS = [
@@ -50,6 +51,7 @@ for (const [area, title, url] of TARGETS) {
       await page.goto(url, { waitUntil: 'networkidle0', timeout: 60000 })
       await new Promise(r => setTimeout(r, 1500))
       await page.evaluate(axeSource)
+      await page.evaluate(locale => axe.configure({ locale: JSON.parse(locale) }), axeLocaleDe)
       const res = await page.evaluate(() => axe.run(document, {
         runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] },
       }))
