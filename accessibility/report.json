@@ -1,0 +1,1150 @@
+{
+  "generatedAt": "2026-10-29T20:47:05.589Z",
+  "standard": "WCAG 2.1 Level A und AA",
+  "tool": "axe-core 4.10.2",
+  "summary": {
+    "pages": 20,
+    "checks": 40,
+    "violations": 57,
+    "errors": 0
+  },
+  "pages": [
+    {
+      "area": "Website",
+      "title": "Startseite",
+      "url": "https://schrat.eco/",
+      "schemes": {
+        "light": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 4,
+              "examples": [
+                "section:nth-child(2) > .font-medium.text-primary",
+                ".bg-elevated > .font-medium.text-primary",
+                "a[href=\"/en\"]"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                "a[href=\"/en\"]",
+                ".gap-4 > .text-dimmed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Preise",
+      "url": "https://schrat.eco/pricing",
+      "schemes": {
+        "light": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 8,
+              "examples": [
+                ".ring-inset.ring-primary\\/50[href$=\"download\"]",
+                ".ring-inset.ring-primary\\/50[href$=\"loslegen\"]",
+                ".p-4.sm\\:p-6 > .text-inverted.bg-primary.hover\\:bg-primary\\/75"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"pricing\"]",
+                ".gap-4.items-center > .text-dimmed.text-sm"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Preisblatt",
+      "url": "https://schrat.eco/preisblatt",
+      "schemes": {
+        "light": {
+          "passes": 26,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 3,
+              "examples": [
+                "button",
+                ".text-dimmed.hover\\:text-highlighted[href$=\"preisblatt\"]",
+                ".gap-4.items-center > .text-dimmed"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 26,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"preisblatt\"]",
+                ".gap-4.items-center > .text-dimmed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Marktplatz",
+      "url": "https://schrat.eco/marketplace",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"marketplace\"]",
+                ".gap-4 > .text-dimmed"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"marketplace\"]",
+                ".gap-4 > .text-dimmed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Download",
+      "url": "https://schrat.eco/download",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 3,
+              "examples": [
+                ".text-primary.font-medium",
+                ".text-dimmed.hover\\:text-highlighted[href$=\"download\"]",
+                ".gap-4 > .text-dimmed"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"download\"]",
+                ".gap-4 > .text-dimmed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Neuigkeiten",
+      "url": "https://schrat.eco/blog",
+      "schemes": {
+        "light": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 3,
+              "examples": [
+                ".text-primary",
+                ".text-dimmed.hover\\:text-highlighted[href$=\"blog\"]",
+                ".gap-4.items-center.flex > .text-dimmed"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"blog\"]",
+                ".gap-4.items-center.flex > .text-dimmed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Kontakt",
+      "url": "https://schrat.eco/contact",
+      "schemes": {
+        "light": {
+          "passes": 26,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 3,
+              "examples": [
+                "button",
+                ".text-dimmed.hover\\:text-highlighted[href$=\"contact\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 26,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"contact\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Anmeldung (Konto)",
+      "url": "https://schrat.eco/login",
+      "schemes": {
+        "light": {
+          "passes": 25,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 4,
+              "examples": [
+                "button",
+                ".text-primary",
+                ".text-dimmed.hover\\:text-highlighted[href$=\"login\"]"
+              ]
+            },
+            {
+              "id": "link-in-text-block",
+              "impact": "serious",
+              "help": "Links must be distinguishable without relying on color",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+              "wcag": [
+                "1.4.1"
+              ],
+              "count": 1,
+              "examples": [
+                ".text-primary"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 25,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"login\"]",
+                ".gap-4 > span"
+              ]
+            },
+            {
+              "id": "link-in-text-block",
+              "impact": "serious",
+              "help": "Links must be distinguishable without relying on color",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+              "wcag": [
+                "1.4.1"
+              ],
+              "count": 1,
+              "examples": [
+                ".text-primary"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Loslegen",
+      "url": "https://schrat.eco/loslegen",
+      "schemes": {
+        "light": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 3,
+              "examples": [
+                ".pt-20 > .font-medium",
+                ".text-dimmed.hover\\:text-highlighted[href$=\"loslegen\"]",
+                ".gap-4 > .text-dimmed.text-sm"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"loslegen\"]",
+                ".gap-4 > .text-dimmed.text-sm"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Sicherheit",
+      "url": "https://schrat.eco/sicherheit",
+      "schemes": {
+        "light": {
+          "passes": 23,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"sicherheit\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 23,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"sicherheit\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Betriebsstatus",
+      "url": "https://schrat.eco/status",
+      "schemes": {
+        "light": {
+          "passes": 23,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 26,
+              "examples": [
+                "li:nth-child(1) > .service-head > .service-state.up",
+                "li:nth-child(1) > .service-foot > span:nth-child(1) > .wide",
+                "li:nth-child(1) > .service-foot > span:nth-child(2)"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 23,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 20,
+              "examples": [
+                "li:nth-child(1) > .service-foot > span:nth-child(1) > .wide",
+                "li:nth-child(1) > .service-foot > span:nth-child(2)",
+                "li:nth-child(1) > .service-foot > span:nth-child(3)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Barrierefreiheit",
+      "url": "https://schrat.eco/barrierefreiheit",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 4,
+              "examples": [
+                ".text-7xl",
+                ".mt-3",
+                ".text-dimmed.hover\\:text-highlighted"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 3,
+              "examples": [
+                ".mt-3",
+                ".text-dimmed.hover\\:text-highlighted",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Datenschutz",
+      "url": "https://schrat.eco/datenschutz",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"datenschutz\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"datenschutz\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Impressum",
+      "url": "https://schrat.eco/impressum",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"impressum\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                ".text-dimmed.hover\\:text-highlighted[href$=\"impressum\"]",
+                ".gap-4 > span"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Startseite (Englisch)",
+      "url": "https://schrat.eco/en",
+      "schemes": {
+        "light": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 4,
+              "examples": [
+                "section:nth-child(2) > .font-medium.text-primary",
+                ".bg-elevated > .font-medium.text-primary",
+                "a[href=\"/\"]"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 22,
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                "a[href=\"/\"]",
+                ".gap-4 > .text-dimmed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Web-App",
+      "title": "Start",
+      "url": "https://app.schrat.eco/",
+      "schemes": {
+        "light": {
+          "passes": 12,
+          "violations": [
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 2,
+              "examples": [
+                "ion-icon[slot=\"start\"]",
+                ".create-project-card__icon"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 12,
+          "violations": [
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 2,
+              "examples": [
+                "ion-icon[slot=\"start\"]",
+                ".create-project-card__icon"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Web-App",
+      "title": "Anmelden",
+      "url": "https://app.schrat.eco/auth/login",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                ".close-btn,.button-native[type=\"button\"][part=\"native\"]"
+              ]
+            },
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 4,
+              "examples": [
+                "div[data-v-1e95eade=\"\"]:nth-child(2) > ion-input > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "form > ion-input > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "ion-button[slot=\"end\"] > ion-icon[slot=\"icon-only\"]"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 21,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                ".close-btn,.button-native[type=\"button\"][part=\"native\"]"
+              ]
+            },
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 4,
+              "examples": [
+                "div[data-v-1e95eade=\"\"]:nth-child(2) > ion-input > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "form > ion-input > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "ion-button[slot=\"end\"] > ion-icon[slot=\"icon-only\"]"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Web-App",
+      "title": "Registrieren",
+      "url": "https://app.schrat.eco/auth/signup",
+      "schemes": {
+        "light": {
+          "passes": 23,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                ".close-btn,.button-native[type=\"button\"][part=\"native\"]"
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 2,
+              "examples": [
+                "a[href$=\"agb\"]",
+                "a:nth-child(2)"
+              ]
+            },
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 5,
+              "examples": [
+                "ion-input:nth-child(2) > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "ion-input:nth-child(3) > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "ion-button[slot=\"end\"] > ion-icon[slot=\"icon-only\"]"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 23,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                ".close-btn,.button-native[type=\"button\"][part=\"native\"]"
+              ]
+            },
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 5,
+              "examples": [
+                "ion-input:nth-child(2) > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "ion-input:nth-child(3) > label > .sc-ion-input-md:nth-child(3) > ion-icon[slot=\"start\"]",
+                "ion-button[slot=\"end\"] > ion-icon[slot=\"icon-only\"]"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Web-App",
+      "title": "Passwort zurücksetzen",
+      "url": "https://app.schrat.eco/auth/reset-password",
+      "schemes": {
+        "light": {
+          "passes": 11,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                ".close-btn,button"
+              ]
+            },
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 2,
+              "examples": [
+                "ion-icon[slot=\"start\"]",
+                ".close-btn > ion-icon"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 11,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                ".close-btn,button"
+              ]
+            },
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            },
+            {
+              "id": "role-img-alt",
+              "impact": "serious",
+              "help": "[role=\"img\"] elements must have an alternative text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/role-img-alt?application=axeAPI",
+              "wcag": [
+                "1.1.1"
+              ],
+              "count": 2,
+              "examples": [
+                "ion-icon[slot=\"start\"]",
+                ".close-btn > ion-icon"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "area": "Web-App",
+      "title": "Projekte",
+      "url": "https://app.schrat.eco/home",
+      "schemes": {
+        "light": {
+          "passes": 10,
+          "violations": [
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            }
+          ]
+        },
+        "dark": {
+          "passes": 10,
+          "violations": [
+            {
+              "id": "meta-viewport",
+              "impact": "critical",
+              "help": "Zooming and scaling must not be disabled",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+              "wcag": [
+                "1.4.4"
+              ],
+              "count": 1,
+              "examples": [
+                "meta[name=\"viewport\"]"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

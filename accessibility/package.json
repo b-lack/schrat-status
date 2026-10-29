@@ -1,0 +1,12 @@
+{
+  "name": "schrat-accessibility-audit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "audit": "node audit.mjs"
+  },
+  "dependencies": {
+    "axe-core": "4.10.2",
+    "puppeteer-core": "23.11.1"
+  }
+}

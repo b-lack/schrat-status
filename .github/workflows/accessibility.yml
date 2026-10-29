@@ -1,0 +1,42 @@
+# Weekly WCAG 2.1 AA audit of schrat.eco and app.schrat.eco. The report is
+# committed to accessibility/report.json and rendered on
+# https://schrat.eco/barrierefreiheit. Not managed by Upptime's template
+# updates (they only touch Upptime's own workflow files).
+name: Accessibility audit
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: accessibility
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: accessibility
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: npm run audit
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add report.json
+          git commit -m "Accessibility report $(date -u +%F)" || exit 0
+          # Upptime commits to master every few minutes; replay onto its head.
+          for i in 1 2 3; do git pull --rebase origin master && git push && exit 0; sleep 10; done
+          exit 1
