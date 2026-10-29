@@ -22,6 +22,8 @@ sites:
       - "Accept-Profile: public"
   - name: Synchronisation
     url: https://sync.schrat.eco/probes/readiness
+  - name: Kundensupport
+    url: https://support.schrat.eco
   - name: E-Mail-Richtlinie
     url: https://mta-sts.schrat.eco/.well-known/mta-sts.txt
 
