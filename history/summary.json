@@ -41,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/db.schrat.eco.ico",
     "slug": "anmeldung",
     "status": "up",
-    "uptime": "9.87%",
-    "uptimeDay": "9.87%",
-    "uptimeWeek": "9.87%",
-    "uptimeMonth": "9.87%",
-    "uptimeYear": "9.87%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 557,
     "timeDay": 557,
     "timeWeek": 557,
     "timeMonth": 557,
     "timeYear": 557,
-    "dailyMinutesDown": {
-      "2026-10-29": 4
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Datenbank-API",
@@ -61,19 +59,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/db.schrat.eco.ico",
     "slug": "datenbank-api",
     "status": "up",
-    "uptime": "8.35%",
-    "uptimeDay": "8.35%",
-    "uptimeWeek": "8.35%",
-    "uptimeMonth": "8.35%",
-    "uptimeYear": "8.35%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 411,
     "timeDay": 411,
     "timeWeek": 411,
     "timeMonth": 411,
     "timeYear": 411,
-    "dailyMinutesDown": {
-      "2026-10-29": 4
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Synchronisation",
