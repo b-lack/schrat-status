@@ -43,51 +43,53 @@ status-website:
       href: https://schrat.eco
     - title: Sicherheit
       href: https://schrat.eco/sicherheit
-  i18n:
-    activeIncidents: Aktuelle Störungen
-    allSystemsOperational: Alle Systeme laufen
-    incidentReport: "Störung #$NUMBER →"
-    activeIncidentSummary: Seit $DATE, $POSTS Beiträge
-    incidentTitle: Störung $NUMBER
-    incidentDetails: Details zur Störung
-    incidentFixed: Behoben
-    incidentOngoing: Andauernd
-    incidentOpenedAt: Eröffnet am
-    incidentClosedAt: Geschlossen am
-    incidentSubscribe: Updates abonnieren
-    incidentViewOnGitHub: Auf GitHub ansehen
-    incidentCommentSummary: Gepostet am $DATE von $AUTHOR
-    incidentBack: ← Zurück zu allen Störungen
-    pastIncidents: Vergangene Störungen
-    pastIncidentsResolved: Behoben in $MINUTES Minuten mit $POSTS Beiträgen
-    liveStatus: Live-Status
-    systemStatus: Systemstatus
-    overallUptime: "Verfügbarkeit gesamt: $UPTIME"
-    overallUptimeTitle: Verfügbarkeit gesamt
-    averageResponseTime: "Mittlere Antwortzeit: $TIMEms"
-    averageResponseTimeTitle: Mittlere Antwortzeit
-    sevelDayResponseTime: Antwortzeit 7 Tage
-    responseTimeMs: Antwortzeit (ms)
-    up: Erreichbar
-    down: Ausgefallen
-    degraded: Eingeschränkt
-    ms: ms
-    loading: Lädt
-    navGitHub: GitHub
-    footer: Diese Seite ist [Open Source](https://github.com/$OWNER/$REPO), betrieben mit [Upptime](https://upptime.js.org)
-    rateLimitExceededTitle: Zu viele Anfragen
-    rateLimitExceededIntro: Das Abfragelimit wurde überschritten. Bitte warten Sie $MINUTES Minuten oder melden Sie sich mit GitHub an.
-    errorTitle: Ein Fehler ist aufgetreten
-    errorIntro: Die aktuellen Statusdaten konnten nicht geladen werden.
-    errorText: Mehr Informationen finden Sie unten.
-    errorHome: Zur Startseite
-    pastScheduledMaintenance: Vergangene Wartungen
-    scheduledMaintenance: Geplante Wartung
-    scheduledMaintenanceSummaryStarted: Begann am $DATE, Dauer $DURATION Minuten
-    scheduledMaintenanceSummaryStarts: Beginnt am $DATE, Dauer $DURATION Minuten
-    startedAt: Begann am
-    startsAt: Beginnt am
-    duration: Dauer
-    durationMin: $DURATION Minuten
-    incidentCompleted: Abgeschlossen
-    incidentScheduled: Geplant
+
+# Status page strings (top-level: the page reads config.i18n).
+i18n:
+  activeIncidents: Aktuelle Störungen
+  allSystemsOperational: Alle Systeme laufen
+  incidentReport: "Störung #$NUMBER →"
+  activeIncidentSummary: Seit $DATE, $POSTS Beiträge
+  incidentTitle: Störung $NUMBER
+  incidentDetails: Details zur Störung
+  incidentFixed: Behoben
+  incidentOngoing: Andauernd
+  incidentOpenedAt: Eröffnet am
+  incidentClosedAt: Geschlossen am
+  incidentSubscribe: Updates abonnieren
+  incidentViewOnGitHub: Auf GitHub ansehen
+  incidentCommentSummary: Gepostet am $DATE von $AUTHOR
+  incidentBack: ← Zurück zu allen Störungen
+  pastIncidents: Vergangene Störungen
+  pastIncidentsResolved: Behoben in $MINUTES Minuten mit $POSTS Beiträgen
+  liveStatus: Live-Status
+  systemStatus: Systemstatus
+  overallUptime: "Verfügbarkeit gesamt: $UPTIME"
+  overallUptimeTitle: Verfügbarkeit gesamt
+  averageResponseTime: "Mittlere Antwortzeit: $TIMEms"
+  averageResponseTimeTitle: Mittlere Antwortzeit
+  sevelDayResponseTime: Antwortzeit 7 Tage
+  responseTimeMs: Antwortzeit (ms)
+  up: Erreichbar
+  down: Ausgefallen
+  degraded: Eingeschränkt
+  ms: ms
+  loading: Lädt
+  navGitHub: GitHub
+  footer: Diese Seite ist [Open Source](https://github.com/$OWNER/$REPO), betrieben mit [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: Zu viele Anfragen
+  rateLimitExceededIntro: Das Abfragelimit wurde überschritten. Bitte warten Sie $MINUTES Minuten oder melden Sie sich mit GitHub an.
+  errorTitle: Ein Fehler ist aufgetreten
+  errorIntro: Die aktuellen Statusdaten konnten nicht geladen werden.
+  errorText: Mehr Informationen finden Sie unten.
+  errorHome: Zur Startseite
+  pastScheduledMaintenance: Vergangene Wartungen
+  scheduledMaintenance: Geplante Wartung
+  scheduledMaintenanceSummaryStarted: Begann am $DATE, Dauer $DURATION Minuten
+  scheduledMaintenanceSummaryStarts: Beginnt am $DATE, Dauer $DURATION Minuten
+  startedAt: Begann am
+  startsAt: Beginnt am
+  duration: Dauer
+  durationMin: $DURATION Minuten
+  incidentCompleted: Abgeschlossen
+  incidentScheduled: Geplant
