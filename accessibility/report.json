@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-29T20:56:28.312Z",
+  "generatedAt": "2026-11-02T04:23:32.225Z",
   "standard": "WCAG 2.1 Level A und AA",
   "tool": "axe-core 4.10.2",
   "summary": {
-    "pages": 20,
-    "checks": 40,
+    "pages": 21,
+    "checks": 42,
     "violations": 0,
     "errors": 0
   },
@@ -60,11 +60,11 @@
       "url": "https://schrat.eco/marketplace",
       "schemes": {
         "light": {
-          "passes": 21,
+          "passes": 22,
           "violations": []
         },
         "dark": {
-          "passes": 21,
+          "passes": 22,
           "violations": []
         }
       }
@@ -75,11 +75,11 @@
       "url": "https://schrat.eco/download",
       "schemes": {
         "light": {
-          "passes": 21,
+          "passes": 22,
           "violations": []
         },
         "dark": {
-          "passes": 21,
+          "passes": 22,
           "violations": []
         }
       }
@@ -105,11 +105,11 @@
       "url": "https://schrat.eco/contact",
       "schemes": {
         "light": {
-          "passes": 26,
+          "passes": 27,
           "violations": []
         },
         "dark": {
-          "passes": 26,
+          "passes": 27,
           "violations": []
         }
       }
@@ -120,11 +120,11 @@
       "url": "https://schrat.eco/login",
       "schemes": {
         "light": {
-          "passes": 26,
+          "passes": 27,
           "violations": []
         },
         "dark": {
-          "passes": 26,
+          "passes": 27,
           "violations": []
         }
       }
@@ -155,6 +155,21 @@
         },
         "dark": {
           "passes": 23,
+          "violations": []
+        }
+      }
+    },
+    {
+      "area": "Website",
+      "title": "Schwachstellen melden",
+      "url": "https://schrat.eco/sicherheit/schwachstellen",
+      "schemes": {
+        "light": {
+          "passes": 21,
+          "violations": []
+        },
+        "dark": {
+          "passes": 21,
           "violations": []
         }
       }
