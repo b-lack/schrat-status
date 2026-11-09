@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-02T04:23:32.225Z",
+  "generatedAt": "2026-11-09T04:24:32.921Z",
   "standard": "WCAG 2.1 Level A und AA",
   "tool": "axe-core 4.10.2",
   "summary": {
     "pages": 21,
     "checks": 42,
-    "violations": 0,
+    "violations": 3,
     "errors": 0
   },
   "pages": [
@@ -30,12 +30,40 @@
       "url": "https://schrat.eco/pricing",
       "schemes": {
         "light": {
-          "passes": 22,
-          "violations": []
+          "passes": 25,
+          "violations": [
+            {
+              "id": "aria-valid-attr-value",
+              "impact": "critical",
+              "help": "Verwendete ARIA-Attribute müssen gültigen Werten entsprechen.",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                "#reka-tabs-v-0-0-trigger-business"
+              ]
+            }
+          ]
         },
         "dark": {
-          "passes": 22,
-          "violations": []
+          "passes": 25,
+          "violations": [
+            {
+              "id": "aria-valid-attr-value",
+              "impact": "critical",
+              "help": "Verwendete ARIA-Attribute müssen gültigen Werten entsprechen.",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+              "wcag": [
+                "4.1.2"
+              ],
+              "count": 1,
+              "examples": [
+                "#reka-tabs-v-0-0-trigger-business"
+              ]
+            }
+          ]
         }
       }
     },
@@ -256,7 +284,21 @@
       "schemes": {
         "light": {
           "passes": 13,
-          "violations": []
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elemente müssen einen ausreichenden Farbkontrast haben.",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "wcag": [
+                "1.4.3"
+              ],
+              "count": 1,
+              "examples": [
+                ".project-group__add,.button-inner"
+              ]
+            }
+          ]
         },
         "dark": {
           "passes": 13,
