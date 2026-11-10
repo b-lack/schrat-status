@@ -1,7 +1,7 @@
 url: https://db.schrat.eco/rest/v1/schema_tags?select=id&limit=1
 status: up
 code: 200
-responseTime: 499
-lastUpdated: 2026-11-09T23:06:57.312Z
+responseTime: 362
+lastUpdated: 2026-11-10T23:06:20.584Z
 startTime: 2026-10-29T20:06:27.376Z
 generator: Upptime <https://github.com/upptime/upptime>
