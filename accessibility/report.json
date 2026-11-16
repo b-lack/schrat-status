@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:24:32.921Z",
+  "generatedAt": "2026-11-16T04:25:31.605Z",
   "standard": "WCAG 2.1 Level A und AA",
   "tool": "axe-core 4.10.2",
   "summary": {
@@ -283,7 +283,7 @@
       "url": "https://app.schrat.eco/",
       "schemes": {
         "light": {
-          "passes": 13,
+          "passes": 14,
           "violations": [
             {
               "id": "color-contrast",
@@ -301,7 +301,7 @@
           ]
         },
         "dark": {
-          "passes": 13,
+          "passes": 14,
           "violations": []
         }
       }
@@ -312,11 +312,11 @@
       "url": "https://app.schrat.eco/auth/login",
       "schemes": {
         "light": {
-          "passes": 22,
+          "passes": 20,
           "violations": []
         },
         "dark": {
-          "passes": 22,
+          "passes": 20,
           "violations": []
         }
       }
@@ -327,11 +327,11 @@
       "url": "https://app.schrat.eco/auth/signup",
       "schemes": {
         "light": {
-          "passes": 24,
+          "passes": 22,
           "violations": []
         },
         "dark": {
-          "passes": 24,
+          "passes": 22,
           "violations": []
         }
       }
