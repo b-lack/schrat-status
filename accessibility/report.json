@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T04:25:31.605Z",
+  "generatedAt": "2026-11-23T04:25:05.841Z",
   "standard": "WCAG 2.1 Level A und AA",
   "tool": "axe-core 4.10.2",
   "summary": {
@@ -103,11 +103,11 @@
       "url": "https://schrat.eco/download",
       "schemes": {
         "light": {
-          "passes": 22,
+          "passes": 24,
           "violations": []
         },
         "dark": {
-          "passes": 22,
+          "passes": 24,
           "violations": []
         }
       }
